@@ -1,0 +1,21 @@
+.card__phrase {
+    font-weight: 3000;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: rgb(26, 18, 26);
+    font-style: italic;
+
+    &::before {
+        content: '" ';
+    }
+
+    &::after {
+        content: ' "';
+    }
+}
+
+.phrase__author {
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: oblique;
+}
